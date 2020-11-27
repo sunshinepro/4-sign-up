@@ -9,33 +9,58 @@
             margin-left: calc(50% - 400px);
             margin-top: 100px;
             
+            position: relative;
 
         }
             .column-left {
                 display: inline-block;
                 float: left;
                 width: 30%;
-                padding: 20px;
-                margin-top: 20px;
+                padding: 40px;
                 background-color: tomato;
+
+                position: absolute;
+                top: 30px;
+                bottom: 30px;
 
             }
             h1{
+                color: white;
 
             }
             footer{
+                position: absolute;
+                bottom: 20px;
+                color: white;
 
             }
-                footer>a{}
+                footer>a{ color: white;}
                 footer>span{}
     
             .column-right {
                 display: inline-block;
-                float: left;
-                width: 40%;
+                float: right;
+                width: 50%;
                 padding: 50px;
                 background-color: white;
+                 position: relative;
             }
+                .close {
+                    display:inline-block;
+                    /*background-color: red;*/
+                    width: 60px;
+                    height: 60px;
+                    text-align: center;
+                    font-size: 20px;
+                    color: lightgray;
+                    line-height: 60px;
+                    /*padding-top: 20px;*/
+                    
+                    position: absolute;
+                    top: 0px;
+                    right: 0px;
+
+                }
                 .form{
                     display: inline-block;
                     width: 100%;
