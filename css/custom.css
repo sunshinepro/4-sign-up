@@ -1,4 +1,56 @@
 
-    body{
-    background-color: aquamarine;
+    body {
+        background-color: turquoise;
+
     }
+        main {
+            display: inline-block;
+            width: 800px;
+            margin-left: calc(50% - 400px);
+            margin-top: 100px;
+            
+
+        }
+            .column-left {
+                display: inline-block;
+                float: left;
+                width: 20%;
+                padding: 20px;
+                margin-top: 20px;
+                background-color: tomato;
+
+            }
+            h1{
+
+            }
+            footer{
+
+            }
+                footer>a{}
+                footer>span{}
+    
+            .column-right {
+                display: inline-block;
+                float: left;
+                width: 40%;
+                padding: 40px;
+                background-color: violet;
+
+                .close{
+
+                }
+                .form{
+
+                }
+                    .line{}
+                        label{}
+                        input{}
+                        .btn{}
+                        .line > span {}
+                        .line > a {}
+
+                    
+                    
+
+
+
