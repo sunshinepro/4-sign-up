@@ -1,18 +1,27 @@
 
     body {
-        background-color: turquoise;
-
+        background-color: white;
+        
     }
+        .background{
+            display: inline-block;
+            width: 100%;
+            height: 100vh;
+
+            background-image: url(../img/blur.jpg);
+            background-size: cover;
+            background-position: center;
+
+        }
         main {
             display: inline-block;
             width: 800px;
-            margin-left: calc(50% - 400px);
-            margin-top: 100px;
-            
-            position: relative;
-
-        }
-            .column-left {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);  
+            }     
+            .column-left{            
                 display: inline-block;
                 float: left;
                 width: 30%;
@@ -23,9 +32,14 @@
                 top: 30px;
                 bottom: 30px;
 
+                background-image: url(../img/kalnas.jpg);
+                background-size: cover;
+
             }
             h1{
                 color: white;
+                margin-top: 0;
+                font-size: 27px;
 
             }
             footer{
